@@ -1,0 +1,15 @@
+.flexContainer{
+    display: flex;
+    width: 33%;
+    margin: 100px;
+    padding: 200px;
+    flex-direction: column;
+}
+@media only screen and (max-width: 600){   
+    .flexContainer{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+
+}
